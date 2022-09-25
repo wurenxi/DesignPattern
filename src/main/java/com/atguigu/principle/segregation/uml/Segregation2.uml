@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="341.68863366641136" y="425.14061331533543">com.atguigu.principle.segregation.improve.D</node>
+    <node x="-230.4213354527466" y="32.78793986865145">com.atguigu.principle.segregation.improve.A</node>
+    <node x="63.78207522309111" y="-5.171313290169223">com.atguigu.principle.segregation.improve.Interface1</node>
+    <node x="63.7820752230911" y="245.56543019879996">com.atguigu.principle.segregation.improve.Interface2</node>
+    <node x="63.78207522309111" y="552.8088116967579">com.atguigu.principle.segregation.improve.Interface3</node>
+    <node x="332.66111073063155" y="79.99993986865147">com.atguigu.principle.segregation.improve.B</node>
+    <node x="-218.02695676518516" y="368.018560356945">com.atguigu.principle.segregation.improve.C</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.principle.segregation.improve.D" target="com.atguigu.principle.segregation.improve.Interface3" relationship="REALIZATION">
+      <point x="0.0" y="50.00000000000006" />
+      <point x="416.68863366641136" y="591.3088116967579" />
+      <point x="75.0" y="0.0" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.B" target="com.atguigu.principle.segregation.improve.Interface2" relationship="REALIZATION">
+      <point x="39.31514489480115" y="-50.0" />
+      <point x="446.9762556254327" y="98.28218962088165" />
+      <point x="138.7820752230911" y="98.28218962088165" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.A" target="com.atguigu.principle.segregation.improve.Interface2" relationship="DEPENDENCY">
+      <point x="0.0" y="49.99999999999997" />
+      <point x="-132.4213354527466" y="425.5846458369226" />
+      <point x="-77.04377633705059" y="425.5846458369226" />
+      <point x="-77.04377633705059" y="284.06543019879996" />
+      <point x="-75.0" y="0.0" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.B" target="com.atguigu.principle.segregation.improve.Interface1" relationship="REALIZATION">
+      <point x="75.00007201243756" y="6.0131348519121275E-5" />
+      <point x="138.78207033639143" y="130.0" />
+      <point x="-4.886699684902851E-6" y="-27.000064580766605" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.A" target="com.atguigu.principle.segregation.improve.Interface1" relationship="DEPENDENCY">
+      <point x="7.245580471249013E-5" y="-49.99964583692264" />
+      <point x="-132.4212629969419" y="271.0" />
+      <point x="138.78207033639143" y="271.0" />
+      <point x="-4.886699684902851E-6" y="26.99993541923338" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.D" target="com.atguigu.principle.segregation.improve.Interface1" relationship="REALIZATION">
+      <point x="75.0" y="0.0" />
+      <point x="509.18863366641136" y="475.14061331533543" />
+      <point x="509.18863366641136" y="21.828686709830777" />
+      <point x="75.0" y="0.0" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.C" target="com.atguigu.principle.segregation.improve.Interface1" relationship="DEPENDENCY">
+      <point x="-2.2366294940923126E-4" y="-50.00026066275538" />
+      <point x="-120.02718042813457" y="271.0" />
+      <point x="138.78207033639143" y="271.0" />
+      <point x="-4.886699684902851E-6" y="26.99993541923338" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.improve.C" target="com.atguigu.principle.segregation.improve.Interface3" relationship="DEPENDENCY">
+      <point x="98.0" y="0.0" />
+      <point x="75.81234230650409" y="418.018560356945" />
+      <point x="-62.96973291658702" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9969512195121951" showDependencies="true" x="291.125382262997" y="445.7003058103972" />
+  <SelectedNodes>
+    <node>com.atguigu.principle.segregation.improve.D</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-768.0" y="-36.0">com.atguigu.principle.segregation.B</node>
+    <node x="-591.0" y="-253.0">com.atguigu.principle.segregation.C</node>
+    <node x="-768.0" y="-276.0">com.atguigu.principle.segregation.Interface1</node>
+    <node x="-591.0" y="-13.0">com.atguigu.principle.segregation.A</node>
+    <node x="-368.0" y="-36.0">com.atguigu.principle.segregation.D</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.principle.segregation.B" target="com.atguigu.principle.segregation.Interface1" relationship="REALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.D" target="com.atguigu.principle.segregation.Interface1" relationship="REALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="-293.0" y="-63.0" />
+      <point x="-693.0" y="-63.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="com.atguigu.principle.segregation.A" target="com.atguigu.principle.segregation.Interface1" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="-493.0" y="-63.0" />
+      <point x="-693.0" y="-63.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7343157894736843" showDependencies="true" x="-517.8079128440384" y="-24.110951834862533" />
+  <SelectedNodes>
+    <node>com.atguigu.principle.segregation.A</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
