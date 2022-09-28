@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Sheep {
+    - name: String
+    - age: int
+    - color: String
+}
+
+Client ..> Sheep
+
+@enduml
